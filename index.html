@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <!-- set the character set -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- first step to a responsive site -->
+        <title>HTML Skeleton</title>
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Your styles should be called here -->
+        <link href="main.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+    </head>
+
+    <body>
+        <!-- YOUR CONTENT GOES HERE -->
+        <button class="filter big-btn" data-filter="refrigerated">Refrigerated</button>
+        <button class="filter big-btn" data-filter="breakfast">Breakfast</button>
+        <button class="filter big-btn" data-filter="sugar">Sugar</button>
+        <button class="filter big-btn" data-filter="household">Household</button>
+        <button class="filter big-btn" data-filter="all">All</button>
+
+
+        <div id="milk" class="dairy refrigerated beverage breakfast item">
+            <figure class="icon"><img src="images/milk.png" alt="milk"></figure>Milk
+
+        </div>
+        <div id="yogurt" class="dairy refrigerated beverage breakfast item">
+            <figure class="icon"><img src="images/yogurt.png" alt="yogurt"></figure> Yogurt
+
+        </div>
+        <div id="cereal" class="breakfast sugar dry item">
+            <figure class="icon"><img src="images/cereal.png" alt="cereal"></figure> Cereal
+
+        </div>
+        <div id="muffin" class="breakfast sugar dry item">
+            <figure class="icon"><img src="images/muffin.png" alt="muffin"></figure> Muffin
+
+        </div>
+        <div id="new-york-strip" class="meat refrigerated dinner item">
+            <figure class="icon"><img src="images/meat.png" alt="meat"></figure> Steak
+
+        </div>
+        <div id="thigh" class="meat refrigerated dinner item">
+            <figure class="icon"><img src="images/chicken.png" alt="chicken"></figure> Chicken
+
+        </div>
+        <div id="apples" class="fruit produce organic fresh sugar item">
+            <figure class="icon"><img src="images/apple.png" alt="apple"></figure>Apples</div>
+        <div id="oranges" class="fruit produce organic fresh sugar item">
+            <figure class="icon"><img src="images/orange.png" alt="orange"></figure> Oranges</div>
+        <div id="fabric-softener" class="inedible laundry cleaning household item">
+            <figure class="icon"><img src="images/softener.png" alt="softener"></figure>Softener</div>
+        <div id="detergent" class="inedible laundry cleaning household item">
+            <figure class="icon"><img src="images/detergent.png" alt="detergent"></figure>Detergent</div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <!-- Your javascript should be called here -->
+        <script src="main.js"></script>
+    </body>
+
+</html>
